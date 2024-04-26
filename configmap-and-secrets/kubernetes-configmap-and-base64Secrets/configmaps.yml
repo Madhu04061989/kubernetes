@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: mysql-configmap
 data:
-  username: naresh
+  username: madhu
   database: mysqldb
