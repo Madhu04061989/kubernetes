@@ -8,9 +8,9 @@
 # EKS Cluster Setup:
   [EKS Cluster Setup](https://github.com/Naresh240/eks-cluster-setup/blob/main/README.md)
 # Build and Push Docker Image
-    docker build -t naresh240/application-cpu:latest .
+    docker build -t reddy46198/application-cpu:latest .
     docker login
-    docker push naresh240/application-cpu:latest
+    docker push reddy461989/application-cpu:latest
 # Deploy Metrics in Cluster
     kubectl apply -f ./metrics-server
 # Install Vertical Pod Autoscaler
