@@ -34,11 +34,11 @@
 # Build Maven Artifact:
     npm install
 # Build Docker image for Springboot Application
-    docker build -t naresh240/nodejs-k8s:v1 .
+    docker build -t reddy461989/nodejs-k8s:v1 .
 # Docker login
     docker login
 # Push docker image to dockerhub
-    docker push naresh240/nodejs-k8s:v1
+    docker push reddy461989/nodejs-k8s:v1
 # Deploy nodejs Application using below commands:
     kubectl apply -f deployment-blue.yml
     kubectl apply -f service-blue.yml
@@ -55,11 +55,11 @@
 # Upgrading for nodejs Application:
 Edit our our application and Build docker image with new tag:
     
-    docker build -t naresh240/nodejs-k8s:v2 .
+    docker build -t reddy461989/nodejs-k8s:v2 .
 
 Push Docker image to docker hub with tag v2:
 
-    docker push naresh240/nodejs-k8s:v2
+    docker push reddy461989/nodejs-k8s:v2
 
 upgrade nodejs application with tag v2:
 
